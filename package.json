@@ -1,0 +1,19 @@
+{
+  "name": "sauce-boss",
+  "version": "1.0.0",
+  "description": "For WordPress Recipe React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemyhre/recipe_boss.git"
+  },
+  "author": "Ben Myhre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemyhre/recipe_boss/issues"
+  },
+  "homepage": "https://github.com/bemyhre/recipe_boss#readme"
+}

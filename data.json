@@ -1,0 +1,161 @@
+{
+    "recipes": [
+        {
+            "name": "Best Chicago Deep Dish Recipe",
+            "recipeUrl": "https://ramshacklepantry.com/how-to-make-the-best-chicago-deep-dish-pizza/",
+            "imageUrl": "https://ramshacklepantry.com/wp-content/uploads/2018/01/feature_good_DSC_0275-1080x1080.jpg",
+            "typeOfRecipe": "food",
+            "ingredients": [
+                {
+                    "ingredient": "Bread Flour",
+                    "amountDigit": "283",
+                    "measurement": "grams"
+                },
+                {
+                    "ingredient": "Lukewarm Water",
+                    "amountDigit": "170",
+                    "measurement": "grams"
+                },
+                {
+                    "ingredient": "Active Dry Yeast",
+                    "amountDigit": "2",
+                    "measurement": "grams"
+                },
+                {
+                    "ingredient": "salt",
+                    "amountDigit": "2",
+                    "measurement": "grams"
+                },
+                {
+                    "ingredient": "sugar",
+                    "amountDigit": "1",
+                    "measurement": "grams"
+                },
+                {
+                    "ingredient": "Whole Milk Low-Moisture Mozzarella, Sliced",
+                    "amountDigit": "1",
+                    "measurement": "Pounds"
+                },
+                {
+                    "ingredient": "Italian Sausage, uncooked",
+                    "amountDigit": "12",
+                    "measurement": "Ounces"
+                },
+                {
+                    "ingredient": "Best Chicago Deep Dish Sauce",
+                    "amountDigit": "1",
+                    "measurement": "batch"
+                },
+                {
+                    "ingredient": "Grated parmesan",
+                    "amountDigit": ".25",
+                    "measurement": "cups"
+                }
+            ]
+        },
+        {
+            "name": "Beefy Taco Mac and Cheese",
+            "recipeUrl": "https://ramshacklepantry.com/beefy-taco-mac-cheese/",
+            "imageUrl": "https://ramshacklepantry.com/wp-content/uploads/2017/11/g_DSC_0178.jpg",
+            "typeOfRecipe": "food",
+            "ingredients": [
+                {
+                    "ingredient": "hamburger",
+                    "amountDigit": "1",
+                    "measurement": "pounds"
+                },
+                {
+                    "ingredient": "taco seasoning",
+                    "amountDigit": "1",
+                    "measurement": "package"
+                },
+                {
+                    "ingredient": "Dry Macaroni",
+                    "amountDigit": "2",
+                    "measurement": "Cups"
+                },
+                {
+                    "ingredient": "Salted Butter",
+                    "amountDigit": "4",
+                    "measurement": "Tablespoons"
+                },
+                {
+                    "ingredient": "Whole Milk",
+                    "amountDigit": "2",
+                    "measurement": "Cups"
+                },
+                {
+                    "ingredient": "all-purpose flour",
+                    "amountDigit": ".25",
+                    "measurement": "cups"
+                },
+                {
+                    "ingredient": "extra sharp cheddar cheese",
+                    "amountDigit": "2",
+                    "measurement": "cups"
+                },
+                {
+                    "ingredient": "crushed nacho cheese",
+                    "amountDigit": ".5",
+                    "measurement": "cups"
+                }
+            ]
+        },
+        {
+            "name": "Limoncello and Lavender Moscow Mule",
+            "recipeUrl": "https://ramshacklepantry.com/limoncello-and-lavender-moscow-mule/",
+            "imageUrl": "https://ramshacklepantry.com/wp-content/uploads/2017/12/featured_good_DSC_0385.jpg",
+            "typeOfRecipe": "drink",
+            "ingredients": [
+                {
+                    "ingredient": "Limoncello",
+                    "amountDigit": "1.5",
+                    "measurement": "Ounces"
+                },
+                {
+                    "ingredient": "Lavender Extract",
+                    "amountDigit": "1",
+                    "measurement": "Ounces"
+                },
+                {
+                    "ingredient": "Ginger Beer",
+                    "amountDigit": "1",
+                    "measurement": "bottle"
+                },
+                {
+                    "ingredient": "Lemon",
+                    "amountDigit": "1",
+                    "measurement": "slice"
+                }
+            ]
+        },
+        {
+            "name": "Real and Best Moscow Mule Recipe",
+            "recipeUrl": "https://ramshacklepantry.com/the-real-and-best-moscow-mule-recipe/",
+            "imageUrl": "https://ramshacklepantry.com/wp-content/uploads/2017/12/featured_good_DSC_0462.jpg",
+            "typeOfRecipe": "drink",
+            "ingredients": [
+                {
+                    "ingredient": "Smirnoff Vodka",
+                    "amountDigit": "2",
+                    "measurement": "Ounces"
+                },
+                {
+                    "ingredient": "Ginger Beer",
+                    "amountDigit": "1",
+                    "measurement": "Bottle"
+                },
+                {
+                    "ingredient": "Lime Juice",
+                    "amountDigit": ".5",
+                    "measurement": "Lime"
+                },
+                {
+                    "ingredient": "Lime",
+                    "amountDigit": "1",
+                    "measurement": "Slice"
+                }
+            ]
+        }
+    ]
+}

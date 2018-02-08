@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/bemyhre/recipe_boss/issues"
   },
-  "homepage": "https://github.com/bemyhre/recipe_boss#readme"
+  "homepage": "https://github.com/bemyhre/recipe_boss#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.1"
+  }
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "lint": "eslint **/*.js --quiet"
+    "lint": "./node_modules/.bin/eslint ./js/*.js --quiet"
   },
   "repository": {
     "type": "git",

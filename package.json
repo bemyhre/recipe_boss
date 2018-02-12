@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
+    "dev": "webpack-dev-server",
     "lint": "eslint **/*.jsx --quiet",
     "build": "webpack",
     "watch": "webpack --watch"

@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 
 const ce = React.createElement;
 
-const MyTitle = function(props) {
+const MyTitle = function MyTitle(props) {
 	return ce('div', { style: { color: props.color } }, ce('h1', null, props.title));
 };
 
-const MyFirstComponent = function() {
+const MyFirstComponent = function MyFirstComponent() {
 	return ce(
 		'div',
 		null,

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "lint": "eslint **/*.jsx --quiet"
+    "lint": "eslint **/*.jsx --quiet",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",

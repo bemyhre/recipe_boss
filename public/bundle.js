@@ -9516,32 +9516,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var MyTitle = function MyTitle(props) {
+var App = function App() {
 	return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 		'div',
-		null,
+		{ className: 'app' },
 		__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-			'h1',
-			{ style: { color: props.color } },
-			' ',
-			props.title,
-			' '
+			'div',
+			{ className: 'landing' },
+			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'h1',
+				null,
+				'Recipe Boss'
+			),
+			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', placeholder: 'Search' }),
+			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'a',
+				null,
+				'or Browse All'
+			)
 		)
 	);
 };
 
-var MyFirstComponent = function MyFirstComponent() {
-	return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-		'div',
-		{ id: 'my-first-component' },
-		__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyTitle, { title: 'Game of Thrones', color: 'YellowGreen' }),
-		__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyTitle, { title: 'Stranger Things', color: 'GreenYellow' }),
-		__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyTitle, { title: 'House of Cards', color: 'Peru' }),
-		__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyTitle, { title: 'The Americans', color: 'burleywood' })
-	);
-};
-
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyFirstComponent, null), document.getElementById('app'));
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(App, null), document.getElementById('app'));
 
 /***/ }),
 /* 83 */

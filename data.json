@@ -7,47 +7,47 @@
             "typeOfRecipe": "food",
             "ingredients": [
                 {
-                    "ingredient": "Bread Flour",
+                    "description": "Bread Flour",
                     "amountDigit": "283",
                     "measurement": "grams"
                 },
                 {
-                    "ingredient": "Lukewarm Water",
+                    "description": "Lukewarm Water",
                     "amountDigit": "170",
                     "measurement": "grams"
                 },
                 {
-                    "ingredient": "Active Dry Yeast",
+                    "description": "Active Dry Yeast",
                     "amountDigit": "2",
                     "measurement": "grams"
                 },
                 {
-                    "ingredient": "salt",
+                    "description": "salt",
                     "amountDigit": "2",
                     "measurement": "grams"
                 },
                 {
-                    "ingredient": "sugar",
+                    "description": "sugar",
                     "amountDigit": "1",
                     "measurement": "grams"
                 },
                 {
-                    "ingredient": "Whole Milk Low-Moisture Mozzarella, Sliced",
+                    "description": "Whole Milk Low-Moisture Mozzarella, Sliced",
                     "amountDigit": "1",
                     "measurement": "Pounds"
                 },
                 {
-                    "ingredient": "Italian Sausage, uncooked",
+                    "description": "Italian Sausage, uncooked",
                     "amountDigit": "12",
                     "measurement": "Ounces"
                 },
                 {
-                    "ingredient": "Best Chicago Deep Dish Sauce",
+                    "description": "Best Chicago Deep Dish Sauce",
                     "amountDigit": "1",
                     "measurement": "batch"
                 },
                 {
-                    "ingredient": "Grated parmesan",
+                    "description": "Grated parmesan",
                     "amountDigit": ".25",
                     "measurement": "cups"
                 }
@@ -60,42 +60,42 @@
             "typeOfRecipe": "food",
             "ingredients": [
                 {
-                    "ingredient": "hamburger",
+                    "description": "hamburger",
                     "amountDigit": "1",
                     "measurement": "pounds"
                 },
                 {
-                    "ingredient": "taco seasoning",
+                    "description": "taco seasoning",
                     "amountDigit": "1",
                     "measurement": "package"
                 },
                 {
-                    "ingredient": "Dry Macaroni",
+                    "description": "Dry Macaroni",
                     "amountDigit": "2",
                     "measurement": "Cups"
                 },
                 {
-                    "ingredient": "Salted Butter",
+                    "description": "Salted Butter",
                     "amountDigit": "4",
                     "measurement": "Tablespoons"
                 },
                 {
-                    "ingredient": "Whole Milk",
+                    "description": "Whole Milk",
                     "amountDigit": "2",
                     "measurement": "Cups"
                 },
                 {
-                    "ingredient": "all-purpose flour",
+                    "description": "all-purpose flour",
                     "amountDigit": ".25",
                     "measurement": "cups"
                 },
                 {
-                    "ingredient": "extra sharp cheddar cheese",
+                    "description": "extra sharp cheddar cheese",
                     "amountDigit": "2",
                     "measurement": "cups"
                 },
                 {
-                    "ingredient": "crushed nacho cheese",
+                    "description": "crushed nacho cheese",
                     "amountDigit": ".5",
                     "measurement": "cups"
                 }
@@ -108,22 +108,22 @@
             "typeOfRecipe": "drink",
             "ingredients": [
                 {
-                    "ingredient": "Limoncello",
+                    "description": "Limoncello",
                     "amountDigit": "1.5",
                     "measurement": "Ounces"
                 },
                 {
-                    "ingredient": "Lavender Extract",
+                    "description": "Lavender Extract",
                     "amountDigit": "1",
                     "measurement": "Ounces"
                 },
                 {
-                    "ingredient": "Ginger Beer",
+                    "description": "Ginger Beer",
                     "amountDigit": "1",
                     "measurement": "bottle"
                 },
                 {
-                    "ingredient": "Lemon",
+                    "description": "Lemon",
                     "amountDigit": "1",
                     "measurement": "slice"
                 }
@@ -136,22 +136,22 @@
             "typeOfRecipe": "drink",
             "ingredients": [
                 {
-                    "ingredient": "Smirnoff Vodka",
+                    "description": "Smirnoff Vodka",
                     "amountDigit": "2",
                     "measurement": "Ounces"
                 },
                 {
-                    "ingredient": "Ginger Beer",
+                    "description": "Ginger Beer",
                     "amountDigit": "1",
                     "measurement": "Bottle"
                 },
                 {
-                    "ingredient": "Lime Juice",
+                    "description": "Lime Juice",
                     "amountDigit": ".5",
                     "measurement": "Lime"
                 },
                 {
-                    "ingredient": "Lime",
+                    "description": "Lime",
                     "amountDigit": "1",
                     "measurement": "Slice"
                 }

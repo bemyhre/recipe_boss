@@ -5,7 +5,9 @@ const IngredientCard = props => <div className="ingredient-card">{props.ingredie
 
 IngredientCard.propTypes = {
 	ingredient: shape({
-		description: string.isRequired
+		description: string.isRequired,
+		amountDigit: string,
+		measurement: string
 	}).isRequired
 };
 

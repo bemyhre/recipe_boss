@@ -9,7 +9,11 @@ const RecipeCard = props => (
 			<h3>
 				<a href={`${props.recipe.recipeUrl}`}>{props.recipe.name}</a>
 			</h3>
-			<div>{props.recipe.ingredients.map(ingredient => <IngredientCard ingredient={ingredient} />)}</div>
+			<div>
+				{props.recipe.ingredients.map(ingredient => (
+					<IngredientCard key={ingredient.name} ingredient={ingredient} />
+				))}
+			</div>
 		</div>
 	</div>
 );
@@ -17,7 +21,9 @@ const RecipeCard = props => (
 RecipeCard.propTypes = {
 	recipe: shape({
 		name: string.isRequired,
+		recipeUrl: string.isRequired,
 		imageUrl: string.isRequired,
+		typeOfRecipe: string,
 		ingredients: string.isRequired
 	}).isRequired
 };

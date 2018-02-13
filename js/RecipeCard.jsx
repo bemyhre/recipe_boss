@@ -1,4 +1,5 @@
 import React from 'react';
+import { shape, string } from 'prop-types';
 import IngredientCard from './IngredientCard';
 
 const RecipeCard = props => (
@@ -12,5 +13,13 @@ const RecipeCard = props => (
 		</div>
 	</div>
 );
+
+RecipeCard.propTypes = {
+	recipe: shape({
+		name: string.isRequired,
+		imageUrl: string.isRequired,
+		ingredients: string.isRequired
+	}).isRequired
+};
 
 export default RecipeCard;

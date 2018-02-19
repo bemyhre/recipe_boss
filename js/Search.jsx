@@ -5,16 +5,16 @@ import preload from '../data.json';
 class Search extends Component {
 	state = {
 		searchTerm: ''
-	}
+	};
 
-	handleSearchTermChange = (event) =>  {
+	handleSearchTermChange = event => {
 		this.setState({ searchTerm: event.target.value });
-	}
+	};
 
-	recipeIngredientsText = (ingredients) => {
-		const stringOfDescriptions = ingredients.map( el => el.description).toString();
-		return stringOfDescriptions
-	}
+	recipeIngredientsText = ingredients => {
+		const stringOfDescriptions = ingredients.map(el => el.description).toString();
+		return stringOfDescriptions;
+	};
 	render() {
 		return (
 			<div className="search">
@@ -28,7 +28,12 @@ class Search extends Component {
 					/>
 				</header>
 				{preload.recipes
-					.filter(recipe => `${recipe.name} ${this.recipeIngredientsText(recipe.ingredients)}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0)
+					.filter(
+						recipe =>
+							`${recipe.name} ${this.recipeIngredientsText(recipe.ingredients)}`
+								.toUpperCase()
+								.indexOf(this.state.searchTerm.toUpperCase()) >= 0
+					)
 					.map(recipe => <RecipeCard key={recipe.recipeUrl} recipe={recipe} />)}
 			</div>
 		);

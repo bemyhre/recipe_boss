@@ -423,9 +423,6 @@ th {
   padding: 0;
 }
 
-/*
-   Hi, this is bad CSS, you shouldn't structure your CSS this way. Structurally based CSS is a bad idea because it's inherently brittle; if you change the way your nest something you break it. I'm doing it this way because it's less typing for everyone involved to not have to type long class names
-*/
 
 * {
   box-sizing: border-box;;
@@ -514,82 +511,97 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 pre {
   text-align: left;
 }
 
-// .search > div > a {
-//   width: 30%;
-//   height: 0;
-//   padding-bottom: 19.8%;
-//   overflow: hidden;
-//   margin-bottom: 3%;
-//   border: 2px solid #333;
-//   border-radius: 4px;
-//   color: #333;
-//   text-decoration: none;
-// }
-
-// .search > div > a {
-//   width: 100%;
-//   padding-bottom: 70%;
-//   height: 0;
-//   overflow: inherit;
-//   margin-bottom: inherit;;
-//   border: none;
-//   border-radius: inherit;
-// }
-
-// .show-card {
-//   float: left;
-//   margin-right: 2%;
-//   border: 2px solid #333;
-//   border-radius: 4px;
-//   text-align: left;
-//   width: 32%;
-//   height: 0;
-//   padding-bottom: 19.8%;
-//   overflow: hidden;
-//   margin-bottom: 2%;
-// }
-
-// .show-card:nth-child(3n), .search > div > a:nth-child(3n) > .show-card {
-//   margin-right: 0;
-// }
-
-// .show-card > img {
-//   width: 46%;
-//   float: left;
-// }
-
-// .show-card > div{
-//   display: block;
-//   float: right;
-//   width: 52%;
-//   overflow-y: scroll;
-// }
-
-// .show-card > div > h3 {
-//   margin-top: 0;
-//   margin-bottom: 5px;
-// }
-
-// .show-card > div > h4 {
-//   margin-top: 0;
-//   margin-bottom: 5px;
-//   color: #666;
-//   font-size: 13px;
-// }
-
-// .show-card > div > p {
-//   margin: 0;
-//   font-size: 13px;
+.search > div > a {
+  width: 30%;
+  height: 0;
+  padding-bottom: 19.8%;
+  overflow: hidden;
+  margin-bottom: 3%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
 }
 
-.search > header + div {
+.search > div > a {
+  width: 100%;
+  padding-bottom: 70%;
+  height: 0;
+  overflow: inherit;
+  margin-bottom: inherit;;
+  border: none;
+  border-radius: inherit;
+}
+
+.recipe-card {
+  float: left;
+  margin-right: 1%;
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-align: left;
+  width: 32%;
+  height: 0;
+  padding-bottom: 19.8%;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+
+/*.recipe-card:nth-child(3n) {
+  margin-right: 0;
+}*/
+
+.recipe-card > img {
+  width: 46%;
+  float: left;
+}
+
+.recipe-card > div{
+  display: block;
+  float: right;
+  width: 52%;
+  overflow-y: scroll;
+}
+
+
+.recipe-card > div > h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.recipe-card > div > h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ingredient-card {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+
+
+/*.search > header + div {
+  margin-top: 25px;
+}*/
+
+.search > div {
   margin-top: 25px;
 }
 
@@ -629,6 +641,8 @@ header > h2 > a {
   color: #aaa;
   text-decoration: none;
 }
+
+
 
 .details > div {
   width: 100%;

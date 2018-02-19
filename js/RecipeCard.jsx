@@ -5,7 +5,7 @@ import IngredientCard from './IngredientCard';
 const RecipeCard = props => (
 	<div className="recipe-card">
 		<img alt={`${props.recipe.name} Recipe Poster`} src={`${props.recipe.imageUrl}`} />
-		<div>
+		<div className="recipe-text-container">
 			<h3>
 				<a href={`${props.recipe.recipeUrl}`}>{props.recipe.name}</a>
 			</h3>

@@ -3,17 +3,17 @@ import RecipeCard from './RecipeCard';
 import preload from '../data.json';
 
 class Search extends Component {
-	constructor(props) {
-		super(props);
-
-		this.state = {
-			searchTerm: 'this is a debug statement'
-		};
-		this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
+	state = {
+		searchTerm: ''
 	}
 
-	handleSearchTermChange(event) {
+	handleSearchTermChange = (event) =>  {
 		this.setState({ searchTerm: event.target.value });
+	}
+
+	recipeIngredientsText = (ingredients) => {
+		const stringOfDescriptions = ingredients.map( el => el.description).toString();
+		return stringOfDescriptions
 	}
 	render() {
 		return (
@@ -27,7 +27,9 @@ class Search extends Component {
 						placeholder="Search"
 					/>
 				</header>
-				{preload.recipes.map(recipe => <RecipeCard key={recipe.recipeUrl} recipe={recipe} />)}
+				{preload.recipes
+					.filter(recipe => `${recipe.name} ${this.recipeIngredientsText(recipe.ingredients)}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0)
+					.map(recipe => <RecipeCard key={recipe.recipeUrl} recipe={recipe} />)}
 			</div>
 		);
 	}

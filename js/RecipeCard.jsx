@@ -3,7 +3,7 @@ import { shape, string } from 'prop-types';
 import IngredientCard from './IngredientCard';
 
 const RecipeCard = props => (
-	<div className="show-card">
+	<div className="recipe-card">
 		<img alt={`${props.recipe.name} Recipe Poster`} src={`${props.recipe.imageUrl}`} />
 		<div>
 			<h3>

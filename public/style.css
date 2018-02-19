@@ -441,6 +441,7 @@ html {
 
 img {
   max-width: 100%;
+  text-align: center;
 }
 
 .search {
@@ -523,7 +524,7 @@ header > h2 > a {
   line-height: 12px;
 }
 
-/*@media all and (min-width: 736px) {
+@media all and (min-width: 736px) {
   .app {
     position: relative;
     width: 100%;
@@ -697,4 +698,4 @@ header > h2 > a {
     border: 2px solid #ccc;
     border-radius: 4px;
   }
-}*/
+}
